@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins, sans-serif;
+    background-color: black;
+}
+
+header {
+    height: 70px;
+    margin-bottom: -20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-links img {
+    height: 40px;
+    width: 40px;
+}
+
+.nav-links input {
+    height: 40px;
+    width: 33vw;
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+    background-color: #2f2d2db5;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar img {
+    position: relative;
+    left: 55px;
+    height: 30px;
+    width: 30px;
+
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside ul li {
+    margin: 10px;
+    list-style: none;
+    color: white;
+    font-size: smaller;
+}
+
+aside ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 15px;
+    gap: 10px;
+
+}
+
+aside {
+    height: 72.5vh;
+    width: 25vw;
+    background-color: #2f2d2db5;
+    margin: 7px;
+    border-radius: 10px;
+    overflow: auto;
+
+}
+
+.asidecontentbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    margin: 15px;
+}
+
+.asidecontentbox p {
+
+    font-size: 2rem;
+}
+
+.asidebox {
+    background-color: rgba(43, 41, 41, 0.856);
+    height: 150px;
+    width: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-color: rgba(83, 79, 79, 0.817) rgba(43, 41, 41, 0.856);
+}
+
+.asideboxcontent {
+    height: 120px;
+    width: 22vw;
+    background-color: rgba(21, 20, 20, 0.354);
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.container {
+    height: 72.5vh;
+    width: 75vw;
+    background-color: #2f2d2db5;
+    color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-color: rgba(100, 91, 91, 0.683) #2f2d2db5;
+    position: relative;
+    left: 0px;
+    margin: 7px;
+    border-radius: 10px;
+}
+.container h2{
+    margin: 5px;
+    padding: 5px;
+    left: 5px;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+.containerfooter{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(233, 233, 225);
+    height: 40vh;
+    
+}
+.borderhr{
+    border: 2px solid rgba(137, 129, 129, 0.842);
+    margin: 20px;
+    
+}
+.containerfooter li{
+    display: flex;
+   gap: 5px;
+    
+    
+}
+.contentcontainer{
+    display: flex;
+    overflow-x: scroll;
+      scrollbar-color: rgba(100, 91, 91, 0.683) rgba(43, 41, 41, 0.856);
+}
+.cardbox{
+    display: flex;
+    flex-direction: column;
+}
+.cardbox p{
+    position: relative;
+    left: 20px;
+}
+.card{
+    height: 30vh;
+    width: 12vw;
+    background-color: rgba(100, 91, 91, 0.683);
+    margin: 15px;
+    border-radius: 10px;
+}
+.card1{
+    height: 30vh;
+    width: 15vw;
+    background-color: rgba(100, 91, 91, 0.683);
+    margin: 15px;
+    border-radius: 50%;
+}
+button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid #1db954;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.btn button:hover {
+
+    color: #000000;
+    padding: 15px 25px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    height: 80px;
+    background: linear-gradient(rgba(183, 47, 201, 0.591) 0%, #2d80df 100%);
+    color: white;
+    position: relative;
+    top: 5px;
+
+}
+
+.footcontent {
+    padding: 10px;
+
+    font-size: 14px;
+}
+
+.btn {
+    padding: 10px;
+
+    font-size: 14px;
+}
+.footerlink{
+    display: flex;
+    justify-content: center;
+
+    gap: 10px;
+}
+.footerlink img {
+    height: 30px;
+    width: 30px;
+}
+.containerfooter{
+    margin: 20px;
+}
